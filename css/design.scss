@@ -1,0 +1,181 @@
+//Définition variables globale //
+$colorRed: #ED4F2F;
+
+
+html{
+    padding: 1%;
+}
+
+body{
+    width: 98%;
+    margin: auto;
+    font-size: 18px;
+    border: 2px solid $colorRed;
+}
+
+
+#headerDivImg {
+    width: 60%;
+    margin: auto;
+}
+
+#headerDivImg img {
+    width: 100%;
+}
+nav {
+    width: 100%;
+    background-color: $colorRed;
+    display: flex;
+        :hover{
+        background-color: aqua;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.navLink{
+    padding: 4%;
+    width: 42%;
+    text-align: center;
+}
+
+#messageUtilisateur{
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.choixForum{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.choixForumDetail{
+    width: 46%;
+    text-align: center;
+    border: 1px solid black;
+        a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#informationChoixForum{
+    margin-top: 2%;
+    padding: 1%;
+    text-align: justify;
+    color: $colorRed;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1{
+    text-align: center;
+}
+
+#formConnect{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.element_formConnect:nth-child(1), .element_formConnect:nth-child(3){
+    flex-basis: 40%;
+    margin-bottom: 4%;
+}
+.element_formConnect:nth-child(2), .element_formConnect:nth-child(4){
+    flex-basis: 60%;
+}
+#formConnect p, #formWriteMessage p{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.bouton{
+    background-color: $colorRed;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 8%;
+}
+
+#linkRetour{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+        :hover{
+            color: $colorRed;
+        }
+}
+
+#contenaireMenuMessagerie{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.element_contenaireMenuMessagerie{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    a{
+        text-decoration: none;
+        display: block;
+    }
+}
+
+#formWriteMessage{
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.element_formWriteMessage:nth-child(1){
+    flex-basis: 30%;
+}
+.element_formWriteMessage:nth-child(2){
+    flex-basis: 70%;
+    text-align: left;
+}
+.element_formWriteMessage:nth-child(3){
+    flex-basis: 100%;
+    margin-top: 2%;
+}
+.element_formWriteMessage:nth-child(4){
+    flex-basis: 100%;
+    margin-bottom: 2%;
+}
+
+#contenaireMessageToRead{
+    display: flex;
+    flex-direction: colum;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+.element_contenaireMessageToReadEmpty{
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+}

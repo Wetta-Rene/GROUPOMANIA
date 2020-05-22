@@ -1,0 +1,188 @@
+/* line 5, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+html {
+  padding: 1%; }
+
+/* line 9, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+body {
+  width: 98%;
+  margin: auto;
+  font-size: 18px;
+  border: 2px solid #ED4F2F; }
+
+/* line 17, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#headerDivImg {
+  width: 60%;
+  margin: auto; }
+
+/* line 22, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#headerDivImg img {
+  width: 100%; }
+
+/* line 25, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+nav {
+  width: 100%;
+  background-color: #ED4F2F;
+  display: flex; }
+  /* line 29, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+  nav :hover {
+    background-color: aqua; }
+  /* line 33, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+  nav a {
+    text-decoration: none;
+    color: black; }
+
+/* line 39, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.navLink {
+  padding: 4%;
+  width: 42%;
+  text-align: center; }
+
+/* line 45, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#messageUtilisateur {
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+  background-color: aqua;
+  margin-top: 2%;
+  border: 2px solid black;
+  border-radius: 5%; }
+
+/* line 56, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.choixForum {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%; }
+
+/* line 62, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.choixForumDetail {
+  width: 46%;
+  text-align: center;
+  border: 1px solid black; }
+  /* line 66, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+  .choixForumDetail a {
+    text-decoration: none;
+    color: black; }
+
+/* line 72, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#informationChoixForum {
+  margin-top: 2%;
+  padding: 1%;
+  text-align: justify;
+  color: #ED4F2F;
+  width: 80%;
+  margin: auto; }
+
+/* line 81, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 20%; }
+
+/* line 87, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+h1 {
+  text-align: center; }
+
+/* line 91, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#formConnect {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 97, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_formConnect:nth-child(1), .element_formConnect:nth-child(3) {
+  flex-basis: 40%;
+  margin-bottom: 4%; }
+
+/* line 101, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_formConnect:nth-child(2), .element_formConnect:nth-child(4) {
+  flex-basis: 60%; }
+
+/* line 104, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#formConnect p, #formWriteMessage p {
+  width: 50%;
+  margin: auto;
+  text-align: center; }
+
+/* line 109, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.bouton {
+  background-color: #ED4F2F;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 8%; }
+
+/* line 116, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#linkRetour {
+  margin-left: 2%;
+  margin-bottom: 2%; }
+  /* line 119, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+  #linkRetour a {
+    text-decoration: none;
+    color: black; }
+  /* line 123, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+  #linkRetour :hover {
+    color: #ED4F2F; }
+
+/* line 128, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#contenaireMenuMessagerie {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+/* line 134, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_contenaireMenuMessagerie {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 5%;
+  margin-bottom: 2%;
+  text-align: center; }
+  /* line 141, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+  .element_contenaireMenuMessagerie a {
+    text-decoration: none;
+    display: block; }
+
+/* line 147, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#formWriteMessage {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center; }
+
+/* line 154, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_formWriteMessage:nth-child(1) {
+  flex-basis: 30%; }
+
+/* line 157, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_formWriteMessage:nth-child(2) {
+  flex-basis: 70%;
+  text-align: left; }
+
+/* line 161, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_formWriteMessage:nth-child(3) {
+  flex-basis: 100%;
+  margin-top: 2%; }
+
+/* line 165, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_formWriteMessage:nth-child(4) {
+  flex-basis: 100%;
+  margin-bottom: 2%; }
+
+/* line 170, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+#contenaireMessageToRead {
+  display: flex;
+  flex-direction: colum;
+  width: 90%;
+  margin: auto;
+  border: 1px solid black; }
+
+/* line 177, /Users/RENE/DWJ/GROUPOMANIA/css/design.scss */
+.element_contenaireMessageToReadEmpty {
+  padding: 3%;
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=design.css.map */
